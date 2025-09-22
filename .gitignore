@@ -17,6 +17,7 @@ docker-compose.override.yml
 
 # Arquivos de dados e mapas
 Data/
+!Data/.gitkeep
 *.pbf
 *.geojson
 *.json
