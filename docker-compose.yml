@@ -1,0 +1,9 @@
+services:
+  osrm:
+    image: osrm/osrm-backend:v5.22.0
+    command: osrm-routed --algorithm mld /data/sp-recorte.osrm
+    volumes:
+      - "C:\Users\gabri\Desktop\OSRM Project:/data"
+    ports:
+      - "5001:5000"
+    restart: unless-stopped
