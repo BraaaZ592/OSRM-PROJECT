@@ -41,8 +41,7 @@ Próximos pasos
 - Añadir perfiles de enrutamiento diferentes (auto, bicicleta, peatón), que ya existen en OSRM; basta con cambiar el perfil, por ejemplo de car.lua a bike.lua.
 
 
-=====================================================================================================================================================================================================
-====================================================================================================================================================================================
+==========================================================================================
 
 
 El sistema actual ya ejecuta el pipeline de map matching localmente (OSRM + Valhalla) con buenos resultados, aunque todavía presenta variaciones de calidad y fallos en zonas urbanas complejas.
@@ -163,8 +162,7 @@ Próximos passos
 - Adicionar perfis diferentes (carro, bike, pedestre) que já existem no OSRM, apenas precisa alterar o perfil por exemplode car.lua para bike.lua.
 
 
-=====================================================================================================================================================================================================
-====================================================================================================================================================================================
+==========================================================================================
 
 
 O sistema atual já executa o pipeline de map matching localmente (OSRM + Valhalla) com bons resultados, porém ainda apresenta variações de qualidade e falhas em casos urbanos complexos. Este documento consolida melhorias destinadas a aumentar a precisão, previsibilidade e auditabilidade do processamento, mantendo operação offline.
